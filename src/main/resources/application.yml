@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Coupons
+  profiles:
+    active: ${SPRING_PROFILE:dev}
